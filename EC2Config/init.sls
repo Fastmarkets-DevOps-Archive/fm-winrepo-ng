@@ -1,5 +1,8 @@
 EC2ConfigService:
-  3.5.228.0:
+
+  # Must be downloaded from https://ec2-downloads-windows.s3.amazonaws.com/EC2Config/EC2Install.zip
+
+  3.10.442.0:
     full_name: 'EC2ConfigService'
     installer: 'salt://win/repo/EC2Config/Ec2Install.exe'
     install_flags: ' /q'
