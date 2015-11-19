@@ -4,7 +4,7 @@ EC2ConfigService:
 
   3.10.442.0:
     full_name: 'EC2ConfigService'
-    installer: 'salt://win/repo/EC2Config/Ec2Install.exe'
+    installer: 'salt://win/repo-ng/fm-winrepo-ng/EC2Config/Ec2Install.exe'
     install_flags: ' /q'
     msiexec: false
 
